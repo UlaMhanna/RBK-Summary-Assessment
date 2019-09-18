@@ -49,7 +49,6 @@ function reduce(array, f, acc) {
   });
   return acc;
 }
-
 //=============================================================================
 /*                              Q1                                           */
 //=============================================================================
@@ -57,9 +56,11 @@ function reduce(array, f, acc) {
 //containing the length of each word in that string.
 //solve it using the most appropriate helper functions(reduce,each,map,filter).
 //wordLengths("hello its me") // [5,3,2]
-
 function wordLengths(str) {
     // TODO: your code here 
+var array = str.split(' ');
+return array1.map(array1,function);
+
 }
 
 //=============================================================================
@@ -73,7 +74,10 @@ function wordLengths(str) {
 
 function countOccurrences(string, character) {
     // your code is here
+var count = string.match.length();
+reduce(count,countOccurrences,acc);
 }
+
 
 //=============================================================================
 /*                                  Q3                                    */
@@ -85,7 +89,13 @@ function countOccurrences(string, character) {
 
 function wordsLongerThanThree(str) {
     // TODO: your code here 
+    filter(str,function func(){
+      var array4 = str.split(' ');
+      array4[i]=Str.length>3
+      return array4;
+    })
 }
+
 
 //=============================================================================
 /*                                  Q4                                        */
@@ -99,6 +109,7 @@ function wordsLongerThanThree(str) {
 //repeatString('dog', 3); // => 'dog' + 'dog' + 'dog' => 'dogdogdog'
 
 function repeatString(str, count) { 
+  var array2 =str.repeat()
  // TODO: your code here 
 } 
  
@@ -210,19 +221,35 @@ d- Decrement the number of "unread" books
 //Using jQuery call a function from the button's id (#delete)
 //The function removes all the elements from the unordered list based on the checkboxes as the previous function
 //Use jQuery as much as you can in selecting elements and other tasks
+function creatfun(){
 
+var creat1 = document.getElementsByTagName('checkbox');
+each(creat1,func )
+(checkbox.value==true) {
+
+
+
+}
 //================================================================================
 /*                              Q10                                           */
 //================================================================================
 // Theoretical questions.
+
 // 1- In your own words,Why do we use Closures ?
+let you associate some data (the lexical environment) with a function that operates on that data
 
 // 2- In OOP, what does "this" refer to ?
+it's refe to the space we are reservesed in memory inside object
 
+                                                                                                                                                                                                                                                                                                      
 // 3- What is jQuery?
+it's colection of librarys contain all the                                                                                                                                                              
 
 // 4- what is the diffrence between Closure's methods and The OOP's methods?
 
+A closure is a function with state associated with it,
+and a method is a function with an object (state) associated with it.
+The difference is the paradigm
 
 
 
